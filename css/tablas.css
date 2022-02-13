@@ -1,0 +1,60 @@
+.tablas{
+    background-color: rgb(13, 50, 56);
+    color: white;
+    padding: 60px 25px;
+    justify-content: space-around;
+}
+
+.flex-table{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tablas h2{
+    font-size: 35px;
+    font-family:'Segoe UI';
+    margin-bottom: 3%;
+}
+
+.text-tabla1{
+    text-align: left;
+}
+
+.tabla1 h2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tabla2 h2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tabla3 h2{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tabla3{
+    margin-top: 7%;
+}
+
+.table3 table{
+    border: solid 1px white;
+    border-style: none;
+    border-color: white;
+}
+.tabla3 table{
+    border-style: none;
+    border: solid 0px white;
+}
+
+.tabla3 table td,tr{
+    padding: 0px;
+}
+
+

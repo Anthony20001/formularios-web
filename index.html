@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/formularios.css">
+    <link rel="stylesheet" href="./css/tablas.css">
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>Visual</h1>
+        </header>
+    </nav>
+    <div class="container">
+        <section class="container-form">
+            <h2>Formularios</h2>
+            <div class="flex">
+                <div class="form1 form">
+                    <h3>Contáctanos</h3>
+                    <div class="form-group">
+                        <span for="in1">Nombre:</span>
+                        <input type="text" name="in1">
+                    </div>
+                    <div class="form-group">
+                        <span for="in2">Email:</span>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <span for="in3">Escriba su mensaje:</span>
+                        <input type="textarea">
+                    </div>
+                    <button>Send</button>
+                </div>
+        
+                <hr>
+        
+                <div class="form2 form">
+                    <h3>Registro de nuevo usuario</h3>
+                    <div class="form-group">
+                        <label for="">Usuario:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Contraseña:</label>
+                        <input type="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="E-mail:">E-mail:</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nombres:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Apellidos:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Dirección:</label>
+                        <input type="textarea">
+                    </div>
+                    <div class="form-group">
+                        <button>Aceptar</button>
+                    </div>
+                </div>
+        
+                <hr>
+        
+                <div class="form3 form">
+                    <h3>Formulario</h3>
+    
+                    <div class="items">
+                        <div>
+                            <label for="">Nombre:</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="">Apellidos:</label>
+                            <input type="text">
+                        </div>
+                    </div>
+    
+                    <div class="items fecha">
+                        <label for="">Fecha de Nacimiento:</label>
+                        <div>
+                            <label for="">año</label>
+                            <input type="number">
+                        </div>
+                        <div>
+                            <label for="">mes</label>
+                            <input type="number">
+                        </div>
+                        <div>
+                            <label for="">dia</label>
+                            <input type="number">
+                        </div>
+                    </div>
+    
+                    <div class="items carrera">
+                        <label for="">Carrera que estudia:</label>
+                        <select name="" id="">
+                            <option value="">Elija una opción</option>
+                            <option value="">Diseño</option>
+                            <option value="">Arquitectura</option>
+                            <option value="">Medicina</option>
+                        </select>
+                    </div>
+    
+                    <div class="items temas">
+                        <label for="">Temas favoritos:</label>
+                        <div>
+                            <input type="checkbox" name="">
+                            <label for="">Arte</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <label for="">Ciencia</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <label for="">Tecnologia</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="">
+                            <label for="">Diseño</label>
+                        </div>
+                    </div>
+    
+                    <div class="items comentarios">
+                        <label for="">Comentarios:</label>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+    
+                    <div class="items login">
+                        <div>
+                            <label for="">Username:</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div>
+                            <label for="">Password:</label>
+                            <input type="password" name="" id="">
+                            <button>v</button>
+                        </div>
+                    </div>
+    
+                    <button>Ok</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="tablas">
+            <h2>Tablas</h2>
+            
+            <div class="flex-table">
+                <div class="tabla1">
+                    <h2>Listado de cursos</h2>
+                    <table class="text-tabla1">
+                        <tr>
+                            <th>Curso</th>
+                            <th>Costo</th>
+                            <th>Horario</th>
+                        </tr>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>200</td>
+                            <td>6:00 - 10:00</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>200</td>
+                            <td>6:00 - 10:00</td>
+                        </tr>
+                        <tr>
+                            <td>JSP&PHP</td>
+                            <td>600</td>
+                            <td>6:00 - 10:00</td>
+                        </tr>
+                    </table>
+                </div>
+        
+                <div class="tabla2">
+                    <h2>Oferta de viaje a San Blas - Panamá</h2>
+                    <table border="1">
+                        <tr>
+                            <td colspan="2" rowspan="2"></td>
+                            <td colspan="2">Bongalow 3 estrellas</td>
+                            <td colspan="2" rowspan="2">Bongalow 4 estrellas</td>
+                        </tr>
+                        <tr>
+                            <td>Solo alojamiento</td>
+                            <td>Alojamiento completo</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">1 semana</td>
+                            <td>Avión turista</td>
+                            <td>500 USD</td>
+                            <td>1200 USD</td>
+                            <td colspan="2" rowspan="2">1400 USD</td>
+                        </tr>
+                        <tr>
+                            <td>Avión&Lancha</td>
+                            <td>1850 USD</td>
+                            <td>2150 USD</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">2 semanas</td>
+                            <td>2300 USD</td>
+                            <td>2850 USD</td>
+                            <td>3600 USD</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="tabla3">
+                    <h2>Su pedido</h2>
+                    <table border="5">
+                        <tr>
+                            <th>Nombre Producto</th>
+                            <th>Precio Unitario</th>
+                            <th>Unidades</th>
+                            <th>Subtotal</th>
+                        </tr>
+                        <tr>
+                            <td>Reproductor MP3 (80 GB)</td>
+                            <td>192.02</td>
+                            <td>1</td>
+                            <td>192.02</td>
+                        </tr>
+                        <tr>
+                            <td>Fundas de colores</td>
+                            <td>2.50</td>
+                            <td>5</td>
+                            <td>12.50</td>
+                        </tr>
+                        <tr>
+                            <td>Reproducto de radio & control remoto</td>
+                            <td>12.99</td>
+                            <td>1</td>
+                            <td>12.99</td>
+                        </tr>
+                        <tr>
+                            <td><b>TOTAL</b></td>
+                            <td>-</td>
+                            <td>7</td>
+                            <td><b>207.51</b></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+    
+</body>
+</html>

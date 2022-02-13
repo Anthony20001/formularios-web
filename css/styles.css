@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    background-color: rgb(7, 29, 32);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
+}
+
+
+.container{
+    margin: 0%;
+}
+
+table{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(5, 21, 24);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    padding: 3%;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(17, 126, 17);
+    margin-top: 4%;
+    font-weight: 600;
+    width: 100%;
+    font-size: 17px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(24, 172, 24);
+}
+
+input{
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    border: solid transparent 2.2px;
+}
+
+input:focus{
+    border: solid rgb(21, 146, 21) 2.2px;
+    outline-style: none;
+}
+
+span{
+    display: block;
+    font-size: 14.5px;
+}
+
+label{
+    font-size: 14.5px;
+}
+
+select{
+    padding: 5px;
+    outline-style: none;
+    border-radius: 5px;
+}
+
+
+option{
+    border: none;
+    outline-style: none;
+    background-color: rgb(12, 58, 65);
+    color: white;
+}
+
+
+.item2{
+    display: flex;
+    margin-right: 2%;
+}
+
+
+
